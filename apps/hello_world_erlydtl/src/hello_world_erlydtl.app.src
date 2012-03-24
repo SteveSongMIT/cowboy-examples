@@ -1,0 +1,13 @@
+{application, hello_world_erlydtl,
+ [
+  {description, "Hello World ErlyDTL Example"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  cowboy
+                 ]},
+  {mod, { hello_world_erlydtl, []}},
+  {env, []}
+ ]}.

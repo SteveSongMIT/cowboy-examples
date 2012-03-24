@@ -1,0 +1,8 @@
+<html>
+<body>
+Generated value:<br />
+
+{{ dynamic_var }}
+
+</body>
+</html>
